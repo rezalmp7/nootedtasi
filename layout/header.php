@@ -103,8 +103,8 @@ include("function/connection.php");
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <div class="left">
-                        <a href="index.html">
-                            <img src="assets/assets/images/logo.png" style="height: 70px;" alt="Logo">
+                        <a href="index.php">
+                            <img src="assets/assets/images/logo.png" style="height: 70px;" alt="Logo"> <span style="font-size: 20px; color: #434e6e"><b>Nootedtasi</b></span>
                         </a>
                     </div>
                 </div>
