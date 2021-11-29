@@ -35,8 +35,8 @@ include("function/connection.php");
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css">
 
     <link rel="stylesheet" href="assets/assets/css/responsive.css">
-    <title>Ecop - Multipurpose eCommerce HTML Template</title>
-    <link rel="icon" type="image/png" href="assets/assets/images/favicon.png">
+    <title>Nootedtasi</title>
+    <link rel="icon" type="image/png" href="assets/assets/images/logo.png">
 
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
