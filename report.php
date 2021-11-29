@@ -14,6 +14,7 @@
                                     </ul>
                                     <div class="tab-content" id="myTabContent">
                                         <div class="tab-pane fade show active pt-4 pb-4" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <a href="function/laporan_roda_dua.php" target="_blank" class="btn btn-success btn-sm m-2">Cetak</a>
                                             <?php
                                             $kendaraan = mysqli_query($conn, "SELECT nootedtasi.nama_karyawan, nootedtasi.nip, nootedtasi.bahan_bakar, nootedtasi.volume, nootedtasi.pelumas, kendaraan.type, kendaraan.no_polisi FROM nootedtasi LEFT JOIN kendaraan ON nootedtasi.id_kendaraan = kendaraan.id WHERE kendaraan.jenis='roda_2'");
                                             ?>
@@ -47,6 +48,7 @@
                                             </table>
                                         </div>
                                         <div class="tab-pane fade pt-4 pb-4" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <a href="function/laporan_roda_empat.php" target="_blank" class="btn btn-success btn-sm m-2">Cetak</a>
                                             <?php
                                             $kendaraan4 = mysqli_query($conn, "SELECT nootedtasi.nama_karyawan, nootedtasi.nip, nootedtasi.bahan_bakar, nootedtasi.volume, nootedtasi.pelumas, kendaraan.type, kendaraan.no_polisi FROM nootedtasi LEFT JOIN kendaraan ON nootedtasi.id_kendaraan = kendaraan.id WHERE kendaraan.jenis='roda_4'");
                                             ?>
